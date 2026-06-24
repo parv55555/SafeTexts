@@ -10,7 +10,7 @@ An edge-computing security application that utilizes a quantized PyTorch MobileB
 
 Unlike traditional client-server AI applications, SafeTexts decouples inference from the cloud. The system pipeline is structured to execute entirely within the mobile hardware constraints:
 
-`Raw Text Input` $\rightarrow$ `Asynchronous Event Queue` $\rightarrow$ `On-Device MobileBERT Classification (PyTorch Lite)` $\rightarrow$ `UI Alert State`
+`Message input through Notification listener` $\rightarrow$ `Stored into room DB` $\rightarrow$ `Fine tuned , 8 bit quantized SLM(A0908i.ptl)` $\rightarrow$ `UI Alert State Overlay`
 
 ### Why Edge ML? (Architectural Decisions)
 * **Zero Latency:** Bypassing cloud API routing allows for instant intent analysis, critical for real-time threat detection.
