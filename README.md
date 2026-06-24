@@ -27,7 +27,7 @@ Unlike traditional client-server AI applications, SafeTexts decouples inference 
 ## 💻 Technical Stack
 
 * **Frontend & Core Engine:** Kotlin, Android SDK, XML
-* **Machine Learning:** PyTorch Lite, MobileBERT (INT 8 Quantized for Edge Processing)
+* **Language processing:** PyTorch Lite, MobileBERT (INT 8 Quantized for Edge Processing)
 * **Concurrency:** Kotlin Coroutines (Main-thread unblocking during tensor operations)
 
 ## 🛣️ Engineering Roadmap
@@ -36,4 +36,4 @@ Unlike traditional client-server AI applications, SafeTexts decouples inference 
   **Phase 3:** Development of a notification listener and room db for the storing the messages with autodelete in 14 days ,user's digital behaviour analyser for more accurate predictions & monitoring system for the installation of remote access apps that scammers use.
 
 ---
-*E00ngineered by Parv Khandelwal*
+*Engineered & architected by Parv Khandelwal*
