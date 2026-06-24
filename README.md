@@ -22,7 +22,7 @@ Unlike traditional client-server AI applications, SafeTexts decouples inference 
 
 * **Inference Latency:** ~200 ms per request
 * **Peak Memory Footprint:** ~190 MB RAM allocated during active inference
-* **Model Size:** INT 8 Quantized `.ptl` payload optimized to 30 MB
+* **Model Size:** INT 8 Quantized model (A0908i) `.ptl` payload optimized to 30 MB
 
 ## 💻 Technical Stack
 
