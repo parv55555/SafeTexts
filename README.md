@@ -27,7 +27,7 @@ Unlike traditional client-server AI applications, SafeTexts decouples inference 
 
 ## 💻 Technical Stack
 
-* **Frontend & Core Engine:** Kotlin, Android SDK, XML
+* **Frontend & Core Engine:** Kotlin, Java, Android SDK, XML
 * **Language processing:** PyTorch Lite, MobileBERT (INT 8 Quantized for Edge Processing)
 * **Concurrency:** Kotlin Coroutines (Main-thread unblocking during tensor operations)
 
