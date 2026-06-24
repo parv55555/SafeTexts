@@ -32,9 +32,9 @@ Unlike traditional client-server AI applications, SafeTexts decouples inference 
 * **Concurrency:** Kotlin Coroutines (Main-thread unblocking during tensor operations)
 
 ## 🛣️ Engineering Roadmap
-  **Phase 1:** Core UI deployment and native Android integration.
-  **Phase 2:** PyTorch quantization and embedding of the NLP model for local edge inference.
-  **Phase 3:** Development of a notification listener and room db for the storing the messages with autodelete in 14 days ,user's digital behaviour analyser for more accurate predictions & monitoring system for the installation of remote access apps that scammers use.
+ * **Phase 1:** Core UI deployment and native Android integration.
+ * **Phase 2:** PyTorch quantization and embedding of the NLP model for local edge inference.
+ * **Phase 3:** Development of a notification listener and room db for the storing the messages with autodelete in 14 days ,user's digital behaviour analyser for more accurate predictions & monitoring system for the installation of remote access apps that scammers use.
 
 ---
 *Engineered & architected by Parv Khandelwal*
